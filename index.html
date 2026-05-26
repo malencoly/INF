@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Advanced Analytics Portal</title>
+
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="left-panel">
+
+      <div class="brand">
+        <h1>Analytics Portal</h1>
+        <p>
+          Lightweight • Modern • Responsive
+        </p>
+      </div>
+
+      <div class="stats-grid">
+
+        <div class="card">
+          <h2>Realtime</h2>
+          <span>Async Processing</span>
+        </div>
+
+        <div class="card">
+          <h2>Optimized</h2>
+          <span>Fast Performance</span>
+        </div>
+
+        <div class="card">
+          <h2>Telemetry</h2>
+          <span>Advanced Metadata</span>
+        </div>
+
+        <div class="card">
+          <h2>Cloud</h2>
+          <span>Formspree Connected</span>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="right-panel">
+
+      <form id="submissionForm">
+
+        <h2>Submit Details</h2>
+
+        <input
+          type="text"
+          id="name"
+          placeholder="Enter your name"
+          required
+        />
+
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your email"
+          required
+        />
+
+        <textarea
+          id="message"
+          placeholder="Write your message..."
+          rows="6"
+        ></textarea>
+
+        <button type="submit">
+          Send Data
+        </button>
+
+        <div id="status"></div>
+
+      </form>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
